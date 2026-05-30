@@ -6,7 +6,7 @@
 /*   By: akihiro <akihiro@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 03:58:54 by akihiro           #+#    #+#             */
-/*   Updated: 2026/05/22 03:29:48 by akihiro          ###   ########.fr       */
+/*   Updated: 2026/05/30 22:05:59 by akihiro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 
 char	*get_next_line(int fd);
 int		check_newline(char *buffer);
-char	*make_res(char *res, char *stash, char *buffer);
+char	*make_res(char *stash);
 char	*copy_to_stash(char *stash, char *buffer);
 char	*make_newstash(char *stash);
 

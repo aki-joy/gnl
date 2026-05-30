@@ -6,7 +6,7 @@
 /*   By: akihiro <akihiro@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 03:58:11 by akihiro           #+#    #+#             */
-/*   Updated: 2026/05/22 03:17:58 by akihiro          ###   ########.fr       */
+/*   Updated: 2026/05/30 22:05:46 by akihiro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*get_next_line(int fd)
 		if (bytes > 0)
 			stash = copy_to_stash(stash, buffer);
 	}
-	res = make_res(res, stash, buffer);
+	res = make_res(stash);
 	stash = make_newstash(stash);
 	return (res);
 }
