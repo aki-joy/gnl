@@ -6,7 +6,7 @@
 /*   By: akihiro <akihiro@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 03:58:54 by akihiro           #+#    #+#             */
-/*   Updated: 2026/05/30 22:05:59 by akihiro          ###   ########.fr       */
+/*   Updated: 2026/05/30 22:11:02 by akihiro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
-
 # endif
 
 char	*get_next_line(int fd);

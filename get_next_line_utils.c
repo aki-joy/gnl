@@ -6,7 +6,7 @@
 /*   By: akihiro <akihiro@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 03:59:54 by akihiro           #+#    #+#             */
-/*   Updated: 2026/05/30 22:06:24 by akihiro          ###   ########.fr       */
+/*   Updated: 2026/05/30 22:17:53 by akihiro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,8 @@ int	check_newline(char *buffer)
 char	*make_res(char *stash)
 {
 	char	*res;
-	int	len;
-	int	i;
+	int		len;
+	int		i;
 
 	if (!stash || !stash[0])
 		return (NULL);
